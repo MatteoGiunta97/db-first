@@ -1,0 +1,27 @@
+cars
+
+
+
+id - INT - PRIMARY_KEY(NOT NULL, UNIQUE), AI
+
+marque - VARCHAR(50) - NOT NULL - INDEX
+
+model - VARCHAR(80) - NOT NULL - INDEX
+
+engine_type - VARCHAR(50) - NOT NULL
+
+engine_power - SMALLINT - NOT NULL
+
+horse_power - SMALLINT - NOT NULL
+
+manual_gear - TINYINT - NULL - DEFAULT(0)
+
+year_of_production - YEAR - NOT NULL - INDEX
+
+made_in - VARCHAR(30) - NOT NULL
+
+availability - TINYINT - NOTNULL
+
+price - DECIMAL (6,2) - NULL
+
+note - TEXT - NULL
